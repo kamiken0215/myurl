@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header{
+    width: auto;
+    height: 0px;
+    margin: 0 auto;
+}
+
+#login{
+    background-image: url('../images/login_form.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+#black_filter{
+    background-color: rgba(0,0,0,0.4);
+    height: 100vh;
+}
+
+#wrap{
+    padding: 100px 200px;
+}
+
+#form_container{
+    display: grid;
+    grid-template-rows: 100px 50px 50px 50px 100px;
+    grid-template-columns: 30% 40% 30%;
+    background-color: rgba(255,255,255,0.2);
+}
+
+#form_con_p{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+#form_con_p p{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    line-height: 1;
+}
+
+#form_con_user_name{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+#form_con_user_name #user_name{
+    height: 30px;
+    width: 300px;
+}
+
+#form_con_password{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+#form_con_password #password{
+    height: 30px;
+    width: 300px;
+}
+
+#form_con_save{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    margin-left: 20px;
+    color: aliceblue;
+    text-align: left;
+}
+
+#form_con_submit_login{
+    grid-row: 5/6;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.orange_btn{
+    background-color: #ff7f50;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 185px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 3px solid #ffffff
+}
+
+.orange_btn:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #ff7f50;
+    cursor: pointer;
+}
